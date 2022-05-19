@@ -1,7 +1,5 @@
-/*
-Este es un comentario para probar los commit y push en GitHub
-*/
 
+//Este es un comentario para probar los commit y push en GitHub
 
 package cuenta;
 
@@ -29,6 +27,6 @@ public class Main {
             cuenta1.ingresar(695);
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
-        }
+        } 
     }
 }
