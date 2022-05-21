@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void operativa_cuenta(float cantidad) {
-        
+        // Método de la operativa principal de la aplicación.
         CCuenta cuenta1;
         double saldoActual;
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
