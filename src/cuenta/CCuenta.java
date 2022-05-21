@@ -41,27 +41,46 @@ public class CCuenta {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    /**
+     * GETTER del número de cuenta.
+     * @return devuelve el número de la cuenta asociada al titular.
+     */
     public String getCuenta() {
         return cuenta;
     }
-
+    /**
+     * SETTER del número de cuenta.
+     * @param cuenta recibe un número de cuenta que asocia a un titular
+     */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
-
+    /**
+     * GETTER de saldo que posee el titular de la cuenta
+     * @return el saldo disponible del titular de la cuenta.
+     */
     public double getSaldo() {
         return saldo;
     }
-
+    /**
+     * SETTER de saldo de titular asociado a la cuenta
+     * @param saldo recibe una cantidad ingresada o resta una cantidad 
+     * retirada.
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
+    /**
+     * Método que establece el tipo de interes aplicar al saldo 
+     * @return el tipo de interes que se aplicara 
+     */
     public double getTipoInterés() {
         return tipoInterés;
     }
-
+    /**
+     * Método que recibira el tipo de interese aplicar al saldo
+     * @param tipoInterés recibe el tipo de interes aplicar.
+     */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
