@@ -75,7 +75,7 @@ public class CCuenta {
     /**
      * 
      * @param cantidad: monto en decimales a ingresar, suma a la variable saldo.
-     * @throws Exception: si la cantidad a ingresar es negativa devulve esta excepción
+     * @throws Exception si la cantidad a ingresar es negativa devulve esta excepción
      */
     public void ingresar(double cantidad) throws Exception {
         if (cantidad < 0) {
@@ -87,7 +87,7 @@ public class CCuenta {
      * Método para retirar el dinero, si existe saldo y si la cantida no es 
      * negativa.
      * @param cantidad: monto en decimales a retirar, resta de la varable saldo.
-     * @throws Exception: existen dos, una para manejar las cantidades negativa
+     * @throws Exception existen dos, una para manejar las cantidades negativa
      * y la otra para el estado de la cuenta.
      */
     public void retirar(double cantidad) throws Exception {
