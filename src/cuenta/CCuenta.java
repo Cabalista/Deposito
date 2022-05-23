@@ -21,7 +21,7 @@ public class CCuenta {
      * @param cue: numero de cuenta.
      * @param sal: saldo de cuenta.
      * @param tipo: tipo de cuenta (ahorro o credito)
-     */
+     */             
     public CCuenta(String nom, String cue, double sal, double tipo) {
         nombre = nom;
         cuenta = cue;
@@ -33,9 +33,9 @@ public class CCuenta {
      */
     public String getNombre() {
         return nombre;
-    }
+    }    
     /**
-     * SETTER de nombre de la cuenta.
+     * SETTER de nombre de la cuenta.    
      * @param nombre: recibe el nombre de el titular de la cuenta.
      */
     public void setNombre(String nombre) {
