@@ -16,7 +16,7 @@ public class Main {
     }
     /**
      * Programa ya referenciado, que funciona a modo de ejemplo de como se ejecuta
-     * la aplicación
+     * la aplicación.
      * @param cantidad: dloat que sirve para el tipo de interes.
      */
     public static void operativa_cuenta(float cantidad) {
